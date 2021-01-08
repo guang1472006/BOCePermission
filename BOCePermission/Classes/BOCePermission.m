@@ -99,11 +99,11 @@
 - (void)permissionTypePhotoAction{
     PHAuthorizationStatus photoStatus = [PHPhotoLibrary authorizationStatus];
      __weak BOCePermission *weakSelf=self;
-    if(authStatus == AVAuthorizationStatusNotDetermined){
+    if(photoStatus == AVAuthorizationStatusNotDetermined){
         [AVCaptureDevice requestAccessForMediaType:AVMediaTypeVideo completionHandler:^(BOOL granted) {
             __strong BOCePermission *strongSelf=weakSelf;
             if (strongSelf.block) {
-                strongSelf.block(granted, @(authStatus));
+                strongSelf.block(granted, @(photoStatus));
             }
         }];
     } else if (photoStatus == PHAuthorizationStatusAuthorized) {
