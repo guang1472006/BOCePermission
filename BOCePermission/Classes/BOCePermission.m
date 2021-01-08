@@ -301,7 +301,7 @@
  * 多媒体
  */
 - (void)permissionTypeMediaLibraryAction{
-    __block BOCePermission *weakSelf = self;
+//    __block BOCePermission *weakSelf = self;
 //    [MPMediaLibrary requestAuthorization:^(MPMediaLibraryAuthorizationStatus status){
 //        switch (status) {
 //            case MPMediaLibraryAuthorizationStatusNotDetermined: {
