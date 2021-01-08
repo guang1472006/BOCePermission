@@ -10,7 +10,7 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   BOCePermission:
-    :commit: 87532cd466d972c57b5b48219a2b0da5f9bb2c2c
+    :commit: bfa35027488bc7278cfc1894f420c97cf39264ee
     :git: https://github.com/guang1472006/BOCePermission.git
 
 SPEC CHECKSUMS:

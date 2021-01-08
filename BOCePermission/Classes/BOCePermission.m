@@ -301,32 +301,32 @@
  * 多媒体
  */
 - (void)permissionTypeMediaLibraryAction{
-    __block BOCePermission *weakSelf = self;
-    [MPMediaLibrary requestAuthorization:^(MPMediaLibraryAuthorizationStatus status){
-        switch (status) {
-            case MPMediaLibraryAuthorizationStatusNotDetermined: {
-                 weakSelf.block(NO, @(status));
-                break;
-            }
-            case MPMediaLibraryAuthorizationStatusRestricted: {
-                 weakSelf.block(NO, @(status));
-                break;
-            }
-            case MPMediaLibraryAuthorizationStatusDenied: {
-                 weakSelf.block(NO, @(status));
-                break;
-            }
-            case MPMediaLibraryAuthorizationStatusAuthorized: {
-                // authorized
-                weakSelf.block(YES, @(status));
-                break;
-            }
-            default: {
-                break;
-            }
-        }
-        
-    }];
+//    __block BOCePermission *weakSelf = self;
+//    [MPMediaLibrary requestAuthorization:^(MPMediaLibraryAuthorizationStatus status){
+//        switch (status) {
+//            case MPMediaLibraryAuthorizationStatusNotDetermined: {
+//                 weakSelf.block(NO, @(status));
+//                break;
+//            }
+//            case MPMediaLibraryAuthorizationStatusRestricted: {
+//                 weakSelf.block(NO, @(status));
+//                break;
+//            }
+//            case MPMediaLibraryAuthorizationStatusDenied: {
+//                 weakSelf.block(NO, @(status));
+//                break;
+//            }
+//            case MPMediaLibraryAuthorizationStatusAuthorized: {
+//                // authorized
+//                weakSelf.block(YES, @(status));
+//                break;
+//            }
+//            default: {
+//                break;
+//            }
+//        }
+//
+//    }];
 }
 
 /*
@@ -439,24 +439,24 @@
 #pragma mark - CBCentralManagerDelegate
 -(void)centralManagerDidUpdateState:(CBCentralManager *)central
 {
-    //蓝牙第一次以及之后每次蓝牙状态改变都会调用这个函数
-    if ([[UIDevice currentDevice].systemVersion floatValue]>=10) {
-        if(central.state==CBManagerStatePoweredOn){
-            NSLog(@"蓝牙设备开着");
-            self.block(YES, nil);
-        }else{
-            NSLog(@"蓝牙设备关着");
-            self.block(NO, nil);
-        }
-    }else{
-        if(central.state==CBCentralManagerStatePoweredOn){
-            NSLog(@"蓝牙设备开着");
-            self.block(YES, nil);
-        }else{
-            NSLog(@"蓝牙设备关着");
-            self.block(NO, nil);
-        }
-    }
+//    //蓝牙第一次以及之后每次蓝牙状态改变都会调用这个函数
+//    if ([[UIDevice currentDevice].systemVersion floatValue]>=10) {
+//        if(central.state==CBManagerStatePoweredOn){
+//            NSLog(@"蓝牙设备开着");
+//            self.block(YES, nil);
+//        }else{
+//            NSLog(@"蓝牙设备关着");
+//            self.block(NO, nil);
+//        }
+//    }else{
+//        if(central.state==CBCentralManagerStatePoweredOn){
+//            NSLog(@"蓝牙设备开着");
+//            self.block(YES, nil);
+//        }else{
+//            NSLog(@"蓝牙设备关着");
+//            self.block(NO, nil);
+//        }
+//    }
 }
 
 
