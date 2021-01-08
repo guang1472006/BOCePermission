@@ -98,18 +98,12 @@
  */
 - (void)permissionTypePhotoAction{
     PHAuthorizationStatus photoStatus = [PHPhotoLibrary authorizationStatus];
-    @weakify(self)
-    if (photoStatus == PHAuthorizationStatusNotDetermined){
-        [PHPhotoLibrary requestAuthorization:^(PHAuthorizationStatus status) {
-            @strongify(self)
-            if (status == PHAuthorizationStatusAuthorized) {
-                if (self.block) {
-                    self.block(YES, @(photoStatus));
-                }
-            } else {
-                if (self.block) {
-                    self.block(NO, @(photoStatus));
-                }
+     __weak BOCePermission *weakSelf=self;
+    if(photoStatus == AVAuthorizationStatusNotDetermined){
+        [AVCaptureDevice requestAccessForMediaType:AVMediaTypeVideo completionHandler:^(BOOL granted) {
+            __strong BOCePermission *strongSelf=weakSelf;
+            if (strongSelf.block) {
+                strongSelf.block(granted, @(photoStatus));
             }
         }];
     } else if (photoStatus == PHAuthorizationStatusAuthorized) {
@@ -133,12 +127,12 @@
  */
 - (void)permissionTypeCameraAction{
     AVAuthorizationStatus authStatus = [AVCaptureDevice authorizationStatusForMediaType:AVMediaTypeVideo];
-    @weakify(self)
+    __weak BOCePermission *weakSelf=self;
     if(authStatus == AVAuthorizationStatusNotDetermined){
         [AVCaptureDevice requestAccessForMediaType:AVMediaTypeVideo completionHandler:^(BOOL granted) {
-            @strongify(self)
-            if (self.block) {
-                self.block(granted, @(authStatus));
+             __strong BOCePermission *strongSelf=weakSelf;
+            if (strongSelf.block) {
+                strongSelf.block(granted, @(authStatus));
             }
         }];
     }  else if (authStatus == AVAuthorizationStatusAuthorized) {
