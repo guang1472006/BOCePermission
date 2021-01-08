@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		38706BDE5D02051407D512776ACD6B38 /* BOCePermission-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E349709493E994E6B61E17957B5C1AE9 /* BOCePermission-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3EB67BA6ECFE376CFD06F914232414F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		4C2FF248C188967EB4FE9C76C58AD9C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		5EE5FF494DEAC1AD1DF8B2ED002F00A4 /* Pods-BOCePermission-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 214B537342196855EE5BFF23A0170FC1 /* Pods-BOCePermission-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		625BE6B904B440008873E799E5CC4FD1 /* Pods-BOCePermission-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 911C95F7EEED29FE436CA009B2B9096D /* Pods-BOCePermission-dummy.m */; };
+		9EBEC74D3872F133449D090ABF121C75 /* BOCePermission.m in Sources */ = {isa = PBXBuildFile; fileRef = E024A3060FCC15568FB823C80591D859 /* BOCePermission.m */; };
+		ABEA6EA4EC49E3213464787FB5115A83 /* BOCePermission-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F1358F2DBFB53EF890561C0B2DE2F95 /* BOCePermission-dummy.m */; };
+		CEC18A3EC2A24152BF4EEB73FA5E2EDD /* BOCePermission.h in Headers */ = {isa = PBXBuildFile; fileRef = 0476CAA454E4DACADC319C2E8C1D70CE /* BOCePermission.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DCC8A4BC8844A6F37272C268FCB62FB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6DEA51CBAF01A6C10AD3B39B440BDAAA;
+			remoteInfo = BOCePermission;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0476CAA454E4DACADC319C2E8C1D70CE /* BOCePermission.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BOCePermission.h; path = BOCePermission/Classes/BOCePermission.h; sourceTree = "<group>"; };
+		214B537342196855EE5BFF23A0170FC1 /* Pods-BOCePermission-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BOCePermission-umbrella.h"; sourceTree = "<group>"; };
+		30D0168779B824587390A3F1BC5705D6 /* BOCePermission.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BOCePermission.modulemap; sourceTree = "<group>"; };
+		3116ACD47337D8B60435ADDFDB729E2F /* Pods-BOCePermission-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BOCePermission-frameworks.sh"; sourceTree = "<group>"; };
+		4FE9B380BEC7DDD2F5BFD1A70CAAA005 /* BOCePermission.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BOCePermission.release.xcconfig; sourceTree = "<group>"; };
+		53E252525A86CA4A356F1913619DBDAE /* Pods-BOCePermission.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BOCePermission.release.xcconfig"; sourceTree = "<group>"; };
+		6322EBE7CC7DB1BC114DE6DB986E61D7 /* Pods-BOCePermission.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BOCePermission.debug.xcconfig"; sourceTree = "<group>"; };
+		6DC8C78AC87FED990613E5EBE8802982 /* BOCePermission-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BOCePermission-Info.plist"; sourceTree = "<group>"; };
+		6ED8E80D5C3479AD4F413F0432956BC8 /* Pods_BOCePermission.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BOCePermission.framework; path = "Pods-BOCePermission.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7F1358F2DBFB53EF890561C0B2DE2F95 /* BOCePermission-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BOCePermission-dummy.m"; sourceTree = "<group>"; };
+		850166A4CA428BE48F44FA9D6077B502 /* Pods-BOCePermission-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BOCePermission-acknowledgements.markdown"; sourceTree = "<group>"; };
+		894CD0A329BD12104200D815B22CD346 /* Pods-BOCePermission.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BOCePermission.modulemap"; sourceTree = "<group>"; };
+		9011C4A4566101D9490499616BD92F92 /* BOCePermission.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BOCePermission.framework; path = BOCePermission.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		911C95F7EEED29FE436CA009B2B9096D /* Pods-BOCePermission-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BOCePermission-dummy.m"; sourceTree = "<group>"; };
+		94600AB93782BA05E121F88265AE884A /* BOCePermission.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BOCePermission.debug.xcconfig; sourceTree = "<group>"; };
+		9474F6DB05930367A9EEB1C01945D36E /* Pods-BOCePermission-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BOCePermission-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E024A3060FCC15568FB823C80591D859 /* BOCePermission.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BOCePermission.m; path = BOCePermission/Classes/BOCePermission.m; sourceTree = "<group>"; };
+		E349709493E994E6B61E17957B5C1AE9 /* BOCePermission-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BOCePermission-umbrella.h"; sourceTree = "<group>"; };
+		F774684B9F13D1032CA7ED216D74FF89 /* Pods-BOCePermission-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BOCePermission-Info.plist"; sourceTree = "<group>"; };
+		FCFB204D167A31A9E77E0DFFD9876973 /* BOCePermission-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BOCePermission-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E94C21D9ADA540895DA064CF094CE12F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EB67BA6ECFE376CFD06F914232414F0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC436F32DD43AC4D0EB64E728C7680BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C2FF248C188967EB4FE9C76C58AD9C5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11E9EC8E0D01EBEC3671200A56917F97 /* Pods-BOCePermission */ = {
+			isa = PBXGroup;
+			children = (
+				894CD0A329BD12104200D815B22CD346 /* Pods-BOCePermission.modulemap */,
+				850166A4CA428BE48F44FA9D6077B502 /* Pods-BOCePermission-acknowledgements.markdown */,
+				9474F6DB05930367A9EEB1C01945D36E /* Pods-BOCePermission-acknowledgements.plist */,
+				911C95F7EEED29FE436CA009B2B9096D /* Pods-BOCePermission-dummy.m */,
+				3116ACD47337D8B60435ADDFDB729E2F /* Pods-BOCePermission-frameworks.sh */,
+				F774684B9F13D1032CA7ED216D74FF89 /* Pods-BOCePermission-Info.plist */,
+				214B537342196855EE5BFF23A0170FC1 /* Pods-BOCePermission-umbrella.h */,
+				6322EBE7CC7DB1BC114DE6DB986E61D7 /* Pods-BOCePermission.debug.xcconfig */,
+				53E252525A86CA4A356F1913619DBDAE /* Pods-BOCePermission.release.xcconfig */,
+			);
+			name = "Pods-BOCePermission";
+			path = "Target Support Files/Pods-BOCePermission";
+			sourceTree = "<group>";
+		};
+		34756B3C8D2EEC6A05749D92672F47CB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				11E9EC8E0D01EBEC3671200A56917F97 /* Pods-BOCePermission */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		39FFE13B4A3E10EA9C0D79F3E0691853 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				30D0168779B824587390A3F1BC5705D6 /* BOCePermission.modulemap */,
+				7F1358F2DBFB53EF890561C0B2DE2F95 /* BOCePermission-dummy.m */,
+				6DC8C78AC87FED990613E5EBE8802982 /* BOCePermission-Info.plist */,
+				FCFB204D167A31A9E77E0DFFD9876973 /* BOCePermission-prefix.pch */,
+				E349709493E994E6B61E17957B5C1AE9 /* BOCePermission-umbrella.h */,
+				94600AB93782BA05E121F88265AE884A /* BOCePermission.debug.xcconfig */,
+				4FE9B380BEC7DDD2F5BFD1A70CAAA005 /* BOCePermission.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BOCePermission";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5C55E07F44CADDC5C1555AE0F4FB8027 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				915B54220A026EA1A98019892C81798B /* BOCePermission */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		915B54220A026EA1A98019892C81798B /* BOCePermission */ = {
+			isa = PBXGroup;
+			children = (
+				0476CAA454E4DACADC319C2E8C1D70CE /* BOCePermission.h */,
+				E024A3060FCC15568FB823C80591D859 /* BOCePermission.m */,
+				39FFE13B4A3E10EA9C0D79F3E0691853 /* Support Files */,
+			);
+			name = BOCePermission;
+			path = BOCePermission;
+			sourceTree = "<group>";
+		};
+		969A3594F1D43D521E0A40C13EC2E5AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9011C4A4566101D9490499616BD92F92 /* BOCePermission.framework */,
+				6ED8E80D5C3479AD4F413F0432956BC8 /* Pods_BOCePermission.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				5C55E07F44CADDC5C1555AE0F4FB8027 /* Pods */,
+				969A3594F1D43D521E0A40C13EC2E5AA /* Products */,
+				34756B3C8D2EEC6A05749D92672F47CB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7CE633BFFCD91C4649A620972B18B27B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38706BDE5D02051407D512776ACD6B38 /* BOCePermission-umbrella.h in Headers */,
+				CEC18A3EC2A24152BF4EEB73FA5E2EDD /* BOCePermission.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E556FC84FAE0C7656B2736B847AE11E3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EE5FF494DEAC1AD1DF8B2ED002F00A4 /* Pods-BOCePermission-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6DEA51CBAF01A6C10AD3B39B440BDAAA /* BOCePermission */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33A6B576061E50651A10A1344FA54EF6 /* Build configuration list for PBXNativeTarget "BOCePermission" */;
+			buildPhases = (
+				7CE633BFFCD91C4649A620972B18B27B /* Headers */,
+				7DCB52873EA832E6F524BFC575642A09 /* Sources */,
+				E94C21D9ADA540895DA064CF094CE12F /* Frameworks */,
+				3CA134BF30F4202413D4E1D0D7D364DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BOCePermission;
+			productName = BOCePermission;
+			productReference = 9011C4A4566101D9490499616BD92F92 /* BOCePermission.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C402E92FF3AC482F6697EADF2BAAC53F /* Pods-BOCePermission */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6978DDC98631C8C0CC93A32A6CB4C0D9 /* Build configuration list for PBXNativeTarget "Pods-BOCePermission" */;
+			buildPhases = (
+				E556FC84FAE0C7656B2736B847AE11E3 /* Headers */,
+				B665377406C2A6FDEAA9E8E6FF6F147C /* Sources */,
+				EC436F32DD43AC4D0EB64E728C7680BD /* Frameworks */,
+				FD8E8811F33F74FDE9F82250C7A02318 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25C57A43703ABB5E029A3DCBB86727DC /* PBXTargetDependency */,
+			);
+			name = "Pods-BOCePermission";
+			productName = "Pods-BOCePermission";
+			productReference = 6ED8E80D5C3479AD4F413F0432956BC8 /* Pods_BOCePermission.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 969A3594F1D43D521E0A40C13EC2E5AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6DEA51CBAF01A6C10AD3B39B440BDAAA /* BOCePermission */,
+				C402E92FF3AC482F6697EADF2BAAC53F /* Pods-BOCePermission */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3CA134BF30F4202413D4E1D0D7D364DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD8E8811F33F74FDE9F82250C7A02318 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7DCB52873EA832E6F524BFC575642A09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABEA6EA4EC49E3213464787FB5115A83 /* BOCePermission-dummy.m in Sources */,
+				9EBEC74D3872F133449D090ABF121C75 /* BOCePermission.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B665377406C2A6FDEAA9E8E6FF6F147C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				625BE6B904B440008873E799E5CC4FD1 /* Pods-BOCePermission-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		25C57A43703ABB5E029A3DCBB86727DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BOCePermission;
+			target = 6DEA51CBAF01A6C10AD3B39B440BDAAA /* BOCePermission */;
+			targetProxy = DCC8A4BC8844A6F37272C268FCB62FB9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D696AC65788C972C64E175E1DAA8D3E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6322EBE7CC7DB1BC114DE6DB986E61D7 /* Pods-BOCePermission.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BOCePermission/Pods-BOCePermission-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BOCePermission/Pods-BOCePermission.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DF8E272EB9BD45D1CB15D9E6A9EA2F38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53E252525A86CA4A356F1913619DBDAE /* Pods-BOCePermission.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BOCePermission/Pods-BOCePermission-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BOCePermission/Pods-BOCePermission.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E198C841FE8AFB9D3D7911E8888DFBBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FE9B380BEC7DDD2F5BFD1A70CAAA005 /* BOCePermission.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BOCePermission/BOCePermission-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BOCePermission/BOCePermission-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/BOCePermission/BOCePermission.modulemap";
+				PRODUCT_MODULE_NAME = BOCePermission;
+				PRODUCT_NAME = BOCePermission;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F43A37A7D17BB4A3F5F442C2132DD983 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94600AB93782BA05E121F88265AE884A /* BOCePermission.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BOCePermission/BOCePermission-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BOCePermission/BOCePermission-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/BOCePermission/BOCePermission.modulemap";
+				PRODUCT_MODULE_NAME = BOCePermission;
+				PRODUCT_NAME = BOCePermission;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33A6B576061E50651A10A1344FA54EF6 /* Build configuration list for PBXNativeTarget "BOCePermission" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F43A37A7D17BB4A3F5F442C2132DD983 /* Debug */,
+				E198C841FE8AFB9D3D7911E8888DFBBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6978DDC98631C8C0CC93A32A6CB4C0D9 /* Build configuration list for PBXNativeTarget "Pods-BOCePermission" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D696AC65788C972C64E175E1DAA8D3E4 /* Debug */,
+				DF8E272EB9BD45D1CB15D9E6A9EA2F38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

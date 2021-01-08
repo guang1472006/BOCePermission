@@ -4,6 +4,6 @@ platform :ios, '9.0'
 
 target 'BOCePermission' do
 
-  pod 'BOCePermission'
+  pod 'BOCePermission',:git=>'https://github.com/guang1472006/BOCePermission.git'
 
 end

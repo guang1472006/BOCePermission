@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		848F7D185FA62C8A7F6B8BA2 /* Pods_BOCePermission.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86A12D8378887CFDCC02E172 /* Pods_BOCePermission.framework */; };
 		CA50D6BA25A82841006EA185 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA50D6B925A82841006EA185 /* AppDelegate.m */; };
 		CA50D6BD25A82841006EA185 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA50D6BC25A82841006EA185 /* SceneDelegate.m */; };
 		CA50D6C025A82841006EA185 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA50D6BF25A82841006EA185 /* ViewController.m */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5B1B7B2E369F5204A4BD18FB /* Pods-BOCePermission.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BOCePermission.release.xcconfig"; path = "Target Support Files/Pods-BOCePermission/Pods-BOCePermission.release.xcconfig"; sourceTree = "<group>"; };
+		86A12D8378887CFDCC02E172 /* Pods_BOCePermission.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BOCePermission.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA50D6B525A82841006EA185 /* BOCePermission.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BOCePermission.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA50D6B825A82841006EA185 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CA50D6B925A82841006EA185 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +57,7 @@
 		CA50D6DB25A82844006EA185 /* BOCePermissionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BOCePermissionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA50D6DF25A82844006EA185 /* BOCePermissionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BOCePermissionUITests.m; sourceTree = "<group>"; };
 		CA50D6E125A82844006EA185 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE3D7D23311FDE8FFF83EB5F /* Pods-BOCePermission.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BOCePermission.debug.xcconfig"; path = "Target Support Files/Pods-BOCePermission/Pods-BOCePermission.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				848F7D185FA62C8A7F6B8BA2 /* Pods_BOCePermission.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +86,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		41B1E8FD9DFD0846B85209F0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EE3D7D23311FDE8FFF83EB5F /* Pods-BOCePermission.debug.xcconfig */,
+				5B1B7B2E369F5204A4BD18FB /* Pods-BOCePermission.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8D186E4472029678F4AFC2B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				86A12D8378887CFDCC02E172 /* Pods_BOCePermission.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CA50D6AC25A82841006EA185 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +111,8 @@
 				CA50D6D325A82844006EA185 /* BOCePermissionTests */,
 				CA50D6DE25A82844006EA185 /* BOCePermissionUITests */,
 				CA50D6B625A82841006EA185 /* Products */,
+				41B1E8FD9DFD0846B85209F0 /* Pods */,
+				8D186E4472029678F4AFC2B0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -144,9 +169,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CA50D6E425A82844006EA185 /* Build configuration list for PBXNativeTarget "BOCePermission" */;
 			buildPhases = (
+				8AE0114DBB4990FB4E2DFA22 /* [CP] Check Pods Manifest.lock */,
 				CA50D6B125A82841006EA185 /* Sources */,
 				CA50D6B225A82841006EA185 /* Frameworks */,
 				CA50D6B325A82841006EA185 /* Resources */,
+				3817B0A49ACFF0F1F1CF9ABB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -260,6 +287,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3817B0A49ACFF0F1F1CF9ABB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BOCePermission/Pods-BOCePermission-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BOCePermission/Pods-BOCePermission-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BOCePermission/Pods-BOCePermission-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8AE0114DBB4990FB4E2DFA22 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BOCePermission-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CA50D6B125A82841006EA185 /* Sources */ = {
@@ -438,6 +507,7 @@
 		};
 		CA50D6E525A82844006EA185 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE3D7D23311FDE8FFF83EB5F /* Pods-BOCePermission.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -455,6 +525,7 @@
 		};
 		CA50D6E625A82844006EA185 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B1B7B2E369F5204A4BD18FB /* Pods-BOCePermission.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

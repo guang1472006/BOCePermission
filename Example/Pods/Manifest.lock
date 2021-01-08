@@ -1,0 +1,21 @@
+PODS:
+  - BOCePermission (0.0.2)
+
+DEPENDENCIES:
+  - BOCePermission (from `https://github.com/guang1472006/BOCePermission.git`)
+
+EXTERNAL SOURCES:
+  BOCePermission:
+    :git: https://github.com/guang1472006/BOCePermission.git
+
+CHECKOUT OPTIONS:
+  BOCePermission:
+    :commit: 87532cd466d972c57b5b48219a2b0da5f9bb2c2c
+    :git: https://github.com/guang1472006/BOCePermission.git
+
+SPEC CHECKSUMS:
+  BOCePermission: 8deaf6dacdddc42c2c79c4d9ee8c3c18c71398f9
+
+PODFILE CHECKSUM: d420e1117f05d2628e981213260ff040af32ac58
+
+COCOAPODS: 1.10.1

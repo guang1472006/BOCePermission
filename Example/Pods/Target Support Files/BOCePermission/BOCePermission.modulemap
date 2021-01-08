@@ -1,0 +1,6 @@
+framework module BOCePermission {
+  umbrella header "BOCePermission-umbrella.h"
+
+  export *
+  module * { export * }
+}
